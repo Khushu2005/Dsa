@@ -1,3 +1,5 @@
+// AIRTHEMATIC OPERATORS
+
 // String + Int 
 
 let a = 10;
@@ -12,7 +14,7 @@ console.log('Sum of ' +a + " and " +  b + " is " + (a+b))
 
 
 
-//  Type Coercion
+//  TYPE COERCION
 // JS me type coercion ka matlab hota hai:
 // jab JavaScript automatically ek data type ko dusre data type me convert kar deta hai operation ke time.
 
@@ -29,7 +31,10 @@ console.log(ans)//output =  10
 console.log(typeof(ans)) // number
 
 
-// unary Operators  = dosent need 2 operands 
+
+
+// UNARY OPERATORS
+//  dosent need 2 operands 
 
 //Increment 
 
