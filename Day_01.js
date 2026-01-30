@@ -35,25 +35,25 @@ console.log(typeof(ans)) // number
 
 // pre-increment
 let one = 10;
-console.log(++one,one) //o/p = 11 , one= 11
+console.log(++one,one) // o/p = 11 , one= 11
 
 // post-increment
 let one_1 = 10;
-console.log(one_1++,one_1) //-/p = 10 , one_1 = 11
+console.log(one_1++,one_1) // o/p = 10 , one_1 = 11
 
 
 //decrement
 
 // pre-decrement
 let sec = 5;
-console.log(--sec,sec) //o/p = 4 , one= 4
+console.log(--sec,sec) // o/p = 4 , one= 4
 
 // post-decrement
 let sec_1 = 5;
-console.log(sec_1--,sec_1) //-/p = 5 , one_1 = 4
+console.log(sec_1--,sec_1) // o/p = 5 , one_1 = 4
 
 // Special Cases
-console.log(--10); // Error these operators can be perfomed on constants 
+console.log(--10); // Error these operators can't be perfomed on constants 
 
 let c = true;     //value of true is 1
 console.log(++c);
