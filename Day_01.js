@@ -58,11 +58,48 @@ let sec_1 = 5;
 console.log(sec_1--,sec_1) // o/p = 5 , one_1 = 4
 
 // Special Cases
-console.log(--10); // Error these operators can't be perfomed on constants 
+// console.log(--10); // Error these operators can't be perfomed on constants 
 
 let c = true;     //value of true is 1
 console.log(++c);
 
 
+// SWAPPING TWO NUMBER
+
+// method 1
+
+// let number_1 = 10;
+// let number_2 = 20;
+
+// console.log(`First Number : ${number_1} , Second Number : ${number_2}`)
+
+// let third = number_1;
+//  number_1 = number_2;
+//  number_2 = third
+
+// console.log(`First Number : ${number_1} , Second Number : ${number_2}`)
+
+
+// method 2
+// let number_1 = 10;
+// let number_2 = 20;
+
+// console.log(`First Number : ${number_1}, Second Number : ${number_2}`);
+
+// ([number_1, number_2] = [number_2, number_1]);
+
+// console.log(`First Number : ${number_1}, Second Number : ${number_2}`);
+
+
+
+// method 3
+let number_1 = 10;
+let number_2 = 20;
+console.log(`First Number : ${number_1}, Second Number : ${number_2}`);
+
+ number_1 = number_1 + number_2;
+ number_2 = number_1 - number_2;
+ number_1 = number_1 - number_2;
+console.log(`First Number : ${number_1}, Second Number : ${number_2}`);
 
 
