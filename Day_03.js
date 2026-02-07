@@ -71,3 +71,33 @@ function CalculatedFinalAmount(amount){
     
 }
 CalculatedFinalAmount(5001)
+
+/*
+Q7) WAP that takes the number of electricity  units consumed as input and calculates the final electricity bill based on the following conditions :
+    UNIT           PRICE
+   upto 100   = Rs. 4.2/unit
+  101 - 200   = Rs. 6/unit
+  201 - 400   = Rs. 8/unit
+more than 400 = Rs. 13/unit
+ */
+
+function calculateElectricityBill(unit){
+    let amount =0;
+    if(amount>400){
+        amount = (unit-400)*13;
+        unit=400;
+    }
+    if(amount>=201 && amount<=400){
+        amount += (unit-200)*8;
+        unit=200;
+    }
+    if(amount>=101 && amount<=200){
+        amount += (unit-100)*6;
+        unit=100;
+    }
+
+    amount += unit*4.2
+
+    console.log(amount.toFixed(1))
+}
+calculateElectricityBill(50)
